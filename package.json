@@ -1,0 +1,26 @@
+{
+  "name": "picture-proxy",
+  "version": "1.0.0",
+  "description": "Picture-Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LumberJackCasual/Picture-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LumberJackCasual/Picture-Proxy/issues"
+  },
+  "homepage": "https://github.com/LumberJackCasual/Picture-Proxy#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
