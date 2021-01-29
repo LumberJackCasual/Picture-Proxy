@@ -11,18 +11,18 @@ app.use('/', (req, res, next) => {
   next();
 })
 app.get('/api/picture-service/:id', (req, res) => {
-  axios.get(`http://54.224.216.171:3004${req.path}`)
+  axios.get(`http://3.92.211.44:3004${req.path}`)
   .then(response => {res.send(response.data)})
   .catch((err)=>{res.send(err)})
 })
 
 app.get('/api/carousels/:id', (req, res) => {
-  axios.get(`http://35.166.39.161:3002${req.url}`)
+  axios.get(`http://52.12.128.214:3002${req.url}`)
     .then(response => {res.send(response.data)})
     .catch(err => res.send(err));
 });
 
-const reviews = 'http://3.141.11.83:3003';
+const reviews = 'http://18.222.123.111:3003';
 
 app.get('/api/reviews/:product_id', (req, res) => {
   axios.get(`${reviews}${req.url}`)
