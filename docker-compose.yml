@@ -2,7 +2,7 @@ version: '3'
 
 services:
   picture:
-    image:
+    image: 'picture_proxy'
     ports:
       - '3000:3000'
 
